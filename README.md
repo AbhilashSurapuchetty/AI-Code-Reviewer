@@ -38,7 +38,9 @@ source venv/bin/activate  # (Windows: venv\Scripts\activate)
 pip install -r requirements.txt
 
 # 4️⃣ Set Up API Key  
-echo "GOOGLE_API_KEY=your_google_gemini_api_key" > .env
+echo "GOOGLE_API_KEY=your_google_gemini_api_key" > .env (Linux)
+In Windows visit google AI studio create your own API Key
+Save that API Key as GOOGLE_API_KEY = Key in a .env file.
 
 # 5️⃣ Run the Application  
 streamlit run app.py
