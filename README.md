@@ -44,3 +44,44 @@ Save that API Key as GOOGLE_API_KEY = Key in a .env file.
 
 # 5️⃣ Run the Application  
 streamlit run app.py
+```
+
+
+## 📌 How the Code Works  
+
+### 1️⃣ Google Gemini API Configuration  
+- The application loads your **API key** from `.env`.  
+- If the API key is missing, it **shows an error** and logs it for debugging.  
+
+### 2️⃣ AI Model Initialization  
+- The `gemini-2.0-flash-experiment` model is loaded with a **system prompt** to ensure structured responses.  
+- The AI **expects Python code** and generates **bug reports + fixes**.  
+
+### 3️⃣ Streamlit UI Setup  
+- Users enter **Python code** in a text box.  
+- They click **“🔍 Review Code”** to submit it.  
+- The AI analyzes the code and **displays a structured review**.  
+
+### 4️⃣ AI Processing & Response Handling  
+- If the API **fails** or does not return a response, the app **logs the error** and shows a message.  
+- If successful, the AI **returns two sections**:  
+  - **Bug Report 🛠️** (Identified issues and explanations)  
+  - **Fixed Code ✅** (Suggested corrections with improvements)  
+
+### 5️⃣ Generating and Downloading Reports  
+- Users can **download the AI review** as a `.txt` file for future reference.  
+- The file is **time-stamped** to avoid overwriting old reports.  
+
+### 6️⃣ Logging & Debugging Support  
+- The app **logs API failures, user input errors, and processing issues** in `app.log`.  
+- This helps **track issues** and improve the application over time.  
+
+---
+
+## 📌 API Key Security  
+
+```md
+- **DO NOT share your `GOOGLE_API_KEY`**.  
+- Always **use a `.env` file** to keep it safe.  
+- Add `.env` to **`.gitignore`** to prevent accidental uploads.  
+
