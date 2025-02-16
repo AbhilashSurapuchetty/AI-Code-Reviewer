@@ -30,7 +30,7 @@ logging.basicConfig(
 # Initialize the AI model for code reviewing
 try:
     model = genai.GenerativeModel(
-        'gemini-2.0-flash-experiment',
+        'gemini-2.0-flash-exp',
         system_instruction="""You are an AI-powered Python Code Reviewer. Your task is to analyze Python code submitted by the user, detect any potential bugs, and provide a fixed version of the code. 
         Ensure your response follows this structure:
 
