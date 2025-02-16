@@ -1,51 +1,44 @@
-# 🤖 AI Code Reviewer
+# 🤖 AI Code Reviewer  
 
-### 🚀 A Streamlit-based AI-powered Python Code Reviewer using Google Gemini API
+🚀 A Streamlit-based AI-powered Python Code Reviewer using Google Gemini API  
 
-## 🌟 Features:
-✅ **AI-Powered Code Review** – Detects bugs and suggests fixes  
-✅ **Downloadable Report** – Users can download the AI-generated bug report  
-✅ **Logging & Error Handling** – Keeps track of issues for debugging  
-✅ **Streamlit UI** – Simple and interactive web-based interface  
+## 🌟 Overview  
+
+AI Code Reviewer is a web-based tool that helps developers **identify bugs, inefficiencies, and errors** in their Python code using **Google Gemini AI**. It provides **detailed feedback** along with **suggested fixes** and allows users to **download AI-generated reports**.  
+
+---
+
+## 🌟 Features  
+
+✅ **AI-Powered Code Review** – Automatically detects issues and suggests fixes  
+✅ **Downloadable Reports** – Users can save the AI-generated bug report  
+✅ **Logging & Error Handling** – Tracks errors and logs debugging info  
+✅ **Secure API Key Management** – Uses `.env` file to protect credentials  
+✅ **Simple Streamlit UI** – Interactive and easy to use  
+✅ **Works on Any System** – Supports Windows, Mac, and Linux  
 
 ---
 
 ## 📌 Installation Guide  
 
-1️⃣ **Clone the Repository**  
+Follow these steps to set up and run the AI Code Reviewer:  
+
 ```sh
-git clone https://github.com/yourusername/AI-Code-Reviewer.git
+# 1️⃣ Clone the Repository  
+git clone https://github.com/AbhilashSurapuchetty/AI-Code-Reviewer.git
 cd AI-Code-Reviewer
-2️⃣ **Clone the Repository**  
 
-sh
-Copy
-Edit
-python -m venv venv
-source venv/bin/activate  # (On Windows, use `venv\Scripts\activate`)
-3️⃣ Install Dependencies
+# 2️⃣ Create a Virtual Environment  
+python -m venv venv  
 
-sh
-Copy
-Edit
+# Activate the virtual environment  
+source venv/bin/activate  # (Windows: venv\Scripts\activate)
+
+# 3️⃣ Install Dependencies  
 pip install -r requirements.txt
-4️⃣ Set Up API Key
-Create a .env file in the project folder and add:
 
-ini
-Copy
-Edit
-GOOGLE_API_KEY=your_google_gemini_api_key
-5️⃣ Run the Application
+# 4️⃣ Set Up API Key  
+echo "GOOGLE_API_KEY=your_google_gemini_api_key" > .env
 
-sh
-Copy
-Edit
+# 5️⃣ Run the Application  
 streamlit run app.py
-📌 How It Works
-Enter Python code in the input box
-Click the "🔍 Review Code" button
-AI generates a Bug Report & Fixed Code
-Download the generated report
-🤝 Contributing
-Feel free to fork the repo and submit pull requests!
