@@ -101,5 +101,13 @@ git commit -m "Added a new feature"
 
 # Push to your fork and submit a Pull Request  
 git push origin feature-branch  
+```
+## 📜 License  
+This project is **open-source** and available under the **MIT License**.  
+
+---
+
+## 📧 Contact  
+For any queries, reach out via **[LinkedIn](www.linkedin.com/in/abhilash-surapuchetty-baa0a4267)** or **GitHub Issues**.  
 
 
