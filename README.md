@@ -108,6 +108,6 @@ This project is **open-source** and available under the **MIT License**.
 ---
 
 ## 📧 Contact  
-For any queries, reach out via **[LinkedIn](www.linkedin.com/in/abhilash-surapuchetty-baa0a4267)** or **GitHub Issues**.  
+For any queries, reach out via **[LinkedIn](https://www.linkedin.com/in/abhilash-surapuchetty-baa0a4267/)** or **GitHub Issues**.  
 
 
