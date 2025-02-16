@@ -83,5 +83,23 @@ streamlit run app.py
 ```md
 - **DO NOT share your `GOOGLE_API_KEY`**.  
 - Always **use a `.env` file** to keep it safe.  
-- Add `.env` to **`.gitignore`** to prevent accidental uploads.  
+- Add `.env` to **`.gitignore`** to prevent accidental uploads.
+
+```
+
+## 🤝 Contributing  
+
+Contributions are welcome! Follow these steps to contribute:  
+
+```sh
+# Fork the repository  
+# Create a new branch  
+git checkout -b feature-branch  
+
+# Commit your changes  
+git commit -m "Added a new feature"  
+
+# Push to your fork and submit a Pull Request  
+git push origin feature-branch  
+
 
